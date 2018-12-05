@@ -1,0 +1,42 @@
+/* CSS Document */
+.display{
+
+margin:0 auto;
+
+
+}
+
+
+td{
+	width:40px;
+	height:20px;
+	
+}
+
+
+.hide{
+background-color: white;
+}
+
+.available{
+  background-color: skyblue;
+}
+
+.sold{
+	background-color: blue;
+}
+
+.corridor{
+	width:50px;
+	background-color: white;
+}
+
+
+.details{
+	border:1px solie black;
+	text-align:center;
+	width:200px;	
+}
+.details td{
+	text-align:center;
+}

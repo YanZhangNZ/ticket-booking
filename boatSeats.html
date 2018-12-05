@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Boat Seats</title>
+	<link rel="stylesheet" href="boatSeats.css" type="text/css"/>
+	
+	<script type="text/javascript" src="boatSeats.js"></script>
+</head>
+
+<body>
+	<H2>WELCOME TO RIDE BOAT HERE. HAVE FUN! </H2>
+	<div>Select Time:
+		<select id="ticketTimes" onchange="handleChange(this, 'time')">
+			<option selected = "selected">9am</option>
+			<option>1pm</option>
+			<option>3pm</option>
+		  </select>
+	</div>
+	<form>
+		<input type="radio" name="boat" value="roseBoat" checked onchange="handleChange(this, 'boat')">ROSEBOAT
+		<input type="radio" name="boat" value="princessBoat" onchange="handleChange(this,'boat')">PRINCESSBOAT
+	</form>
+	
+	<!--show seats layout of two kinds of boats  -->
+	<div class="display" id="showSeats">
+		
+	</div>
+	<div id="ticketZone">
+		
+	
+	</div>	
+	
+	<button onclick="submit()">Submit</button>
+	<script type="text/javascript">
+	
+		
+	</script>
+</body>
+</html>
